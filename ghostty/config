@@ -4,6 +4,7 @@ foreground = ffffff
 macos-titlebar-style = hidden
 #macos-non-native-fullscreen = true
 
+# Terminal theme is rose-pine
 theme = rose-pine
 
 background-opacity=1
@@ -11,12 +12,13 @@ background-blur=false
 
 # font-family = "MesloLGS Nerd Font"
 
+# Looks better
 font-thicken = true
 font-thicken-strength = 200
 font-size=15
 
-#this disables the warning before closing a window
+#This disables the warning before closing a window
 confirm-close-surface = false
 
-#when begin typing the mouse is not visible
+#When begin typing the mouse is not visible
 mouse-hide-while-typing
