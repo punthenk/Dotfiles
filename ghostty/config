@@ -1,0 +1,22 @@
+background = 000000
+foreground = ffffff
+
+macos-titlebar-style = hidden
+#macos-non-native-fullscreen = true
+
+theme = rose-pine
+
+background-opacity=1
+background-blur=false
+
+# font-family = "MesloLGS Nerd Font"
+
+font-thicken = true
+font-thicken-strength = 200
+font-size=15
+
+#this disables the warning before closing a window
+confirm-close-surface = false
+
+#when begin typing the mouse is not visible
+mouse-hide-while-typing
