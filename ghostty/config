@@ -14,6 +14,7 @@ background-blur=95
 
 # font-family = "MesloLGS Nerd Font"
 # font-family = "Terminus (TTF)"
+# font-family = "templeos"
 
 # Looks better
 font-thicken = true
