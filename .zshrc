@@ -14,8 +14,10 @@ alias vim="nvim"
 alias lg="lazygit"
 alias ld="lazydocker"
 alias dr="docker-compose down && docker-compose up -d"
-alias cr="cargo run"
-alias ccr="clear && cargo run"
+alias cr="cargo run -- "
+alias ccr="clear && cargo run -- "
+alias gs="git status"
+alias gitlog="git log --oneline --decorate --graph --parents"
 
 # Hope this works (it did work)
 bindkey -s ^f "tmux-sessionizer\n"
