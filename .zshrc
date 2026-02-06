@@ -31,7 +31,7 @@ reload() {
 source <(fzf --zsh)
 
 # ZSH_THEME="grey"
-ZSH_THEME="robbyrussell"
+# ZSH_THEME="robbyrussell"
 
 
 # enable prompt substitution
@@ -48,7 +48,8 @@ zstyle ':vcs_info:git:*' formats ' %F{green}(%F{red}%b%u%F{green})%f'
 zstyle ':vcs_info:git:*' actionformats ' %F{green}(%F{red}%b|%a%u%F{green})%f'
 
 # PROMPT='%F{yellow}%1~%f%F{green}$(git_prompt)%f %F{blue}>%f '
-PROMPT='%F{yellow}%1~%f${vcs_info_msg_0_} %F{blue}›%f '
+# PROMPT='%F{yellow}%1~%f${vcs_info_msg_0_} %F{blue}›%f '
+PROMPT='%F{red}punthenk%f%F{white}:%f%F{blue}%1~%f${vcs_info_msg_0_}%F{white} #%f '
 
 
 # my plugins
