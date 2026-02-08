@@ -1,0 +1,59 @@
+{
+    "window.zoomLevel": 0.5,
+    "workbench.activityBar.location": "hidden",
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+
+    "editor.lineNumbers": "relative",
+
+    "apc.electron": {
+        "titleBarStyle": "hidden",
+    },
+    "window.customTitleBarVisibility": "never",
+    "vscode_vibrancy.opacity": 0.3,
+
+    "editor.autoClosingQuotes": "never",
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingComments": "never",
+    "editor.autoClosingDelete": "never",
+
+    "search.useIgnoreFiles": false,
+    "search.exclude": {},
+    "files.exclude": {},
+
+    "vim.leader": "<Space>",
+    "vim.useSystemClipboard": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        { "before": ["<S-h>"], "commands": [":bprevious"]},
+        { "before": ["<S-l>"], "commands": [":bnext"]},
+        { "before": ["<C-d>"], "after": ["<C-d>", "z", "z"] },
+        { "before": ["<C-u>"], "after": ["<C-u>", "z", "z"] },
+        { "before": ["<leader>", "a"], "commands": ["jumplist.addCurrent"] },
+        { "before": ["<leader>", "e"], "commands": ["jumplist.open"] },
+        { "before": ["<C-h>"], "commands": ["jumplist.jump1"] },
+        { "before": ["<C-t>"], "commands": ["jumplist.jump2"] },
+        { "before": ["<leader>", "3"], "commands": ["jumplist.jump3"] },
+        { "before": ["<leader>", "4"], "commands": ["jumplist.jump4"] },
+        { "before": ["<leader>", "5"], "commands": ["jumplist.jump5"] },
+        { "before": ["<leader>", "6"], "commands": ["jumplist.jump6"] },
+        { "before": ["<leader>", "7"], "commands": ["jumplist.jump7"] },
+        { "before": ["<leader>", "8"], "commands": ["jumplist.jump8"] },
+        { "before": ["<leader>", "9"], "commands": ["jumplist.jump9"] },
+        { "before": ["<leader>", "<BS>"], "commands": ["jumplist.deleteCurrent"] },
+        { "before": ["<leader>", "f"], "commands": ["workbench.action.quickOpen"] }
+    ],
+    "workbench.colorTheme": "Vim Deep Dark",
+    "workbench.colorCustomizations": {
+        "terminal.background": "#00000000"
+    },
+    "window.titleBarStyle": "custom",
+    "editor.stickyScroll.enabled": false,
+    "terminal.integrated.gpuAcceleration": "off",
+    "window.systemColorTheme": "dark",
+    "window.autoDetectColorScheme": false,
+    "workbench.sideBar.location": "right",
+    "terminal.integrated.env.osx": {
+        "Q_NEW_SESSION": "1"
+    },
+    "editor.fontWeight": "500",
+}
