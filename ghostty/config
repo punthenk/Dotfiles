@@ -1,6 +1,6 @@
-# background = 0a0a12
+background = 0a0a12
 # background = 0d0d0d
-background = 000000
+# background = 000000
 # background = 05080b
 foreground = ffffff
 
@@ -10,8 +10,8 @@ macos-titlebar-style = hidden
 # Terminal theme is rose-pine
 theme = Rose Pine
 
-background-opacity=0.95
-background-blur=95
+background-opacity=1
+# background-blur=95
 
 # font-family = "MesloLGS Nerd Font"
 # font-family = "Terminus (TTF)"
@@ -28,8 +28,8 @@ confirm-close-surface = false
 #When begin typing the mouse is not visible
 mouse-hide-while-typing
 
-window-padding-x = 20
-window-padding-y = 20
+window-padding-x = 10
+window-padding-y = 10
 window-padding-balance = true
 
 cursor-style = block
