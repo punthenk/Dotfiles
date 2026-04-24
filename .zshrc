@@ -7,8 +7,6 @@ export PATH=~/.npm-global/bin:$PATH
 
 export PATH="$HOME/dotfiles:$PATH"
 
-source $ZSH/oh-my-zsh.sh
-
 #all my aliases
 alias vim="nvim"
 alias lg="lazygit"
@@ -58,6 +56,8 @@ plugins=(
     npm
     # zsh-syntax-highlighting
 )
+
+source $ZSH/oh-my-zsh.sh
 
 # I really dont know what this does but I'm too scared to break something
 export PATH="/Users/michielnijenhuis/.config/herd-lite/bin:$PATH"
