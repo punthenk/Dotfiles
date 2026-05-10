@@ -1,15 +1,21 @@
 # background = 0a0a12
 # background = 0d0d0d
-background = 000000
+# background = 000000
 # background = 05080b
+background = 0f0f11
 foreground = ffffff
 
-macos-titlebar-style = native
+macos-titlebar-style = transparent
 window-theme = light
 # macos-non-native-fullscreen = true
 
+window-width = 80
+window-height = 25
+
 # Terminal theme is rose-pine
-theme = Rose Pine
+# theme = Rose Pine
+# theme = Apple Classic
+theme = 0x96f
 
 background-opacity=1
 # background-blur=95
@@ -17,12 +23,12 @@ background-opacity=1
 # font-family = "MesloLGS Nerd Font"
 # font-family = "Terminus (TTF)"
 # font-family = "templeos"
-font-family = "Input"
+# font-family = "Input"
 
 # Looks better
 font-thicken = true
 font-thicken-strength = 200
-font-size=16
+font-size=17
 
 #This disables the warning before closing a window
 confirm-close-surface = false
